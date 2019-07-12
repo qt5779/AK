@@ -6,7 +6,7 @@ import pytest
 from page.page_login import PageLogin
 
 def get_data():
-    return [("13800001111", "123456"), ("13800001112", "1234567")]
+    return [("13800001111", "123456")]
 
 
 class TestLogin(object):
